@@ -1,5 +1,5 @@
 .auth-page{
-    position: relative;
+    display: flex;
     max-width: 1300px;
     height: 90vh;
     margin: 5vh auto;
@@ -71,6 +71,10 @@
     border: 2px solid #fff;
     margin-left: -10px;
 }
-    .avatar-row img:first-child {
+.avatar-row img:first-child {
     margin-left: 0;
+}
+.social-btn-apple-btn{
+    margin-left: 10px;
+    margin-right: 10px;
 }

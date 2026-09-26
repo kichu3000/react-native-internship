@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./multi.css"
+import "./login.css"
 function AuthPage() {
     const [showPassword, setShowPassword] = useState(false);
 
@@ -53,7 +53,7 @@ function AuthPage() {
             </form>
 
             <div className="social-buttons">
-            <button className="social-btn apple-btn">
+            <button className="social-btn-apple-btn">
                 <span className="icon"></span> Apple
             </button>
             <button className="social-btn google-btn">
