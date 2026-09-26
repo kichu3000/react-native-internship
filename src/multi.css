@@ -1,0 +1,76 @@
+.auth-page{
+    position: relative;
+    max-width: 1300px;
+    height: 90vh;
+    margin: 5vh auto;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+    background: linear-gradient(135deg, #f4f4f2, #ecd68b)
+}
+.auth-left {
+    flex: 1;  
+    padding: 56px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.logo-badge{
+    width: 50px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 40px;
+    
+
+}
+.form-group input {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 16px;
+    background: #f4f3ee;
+    font-size: 15px;
+}
+.submit-btn{
+    padding:16px 120px;
+    border: none;
+    border-radius: 1000px;
+    background: linear-gradient(180deg, #fbe08a, #f6c744);
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(246,199,68,0.4);
+}
+.auth-right {
+    position: relative;
+    flex: 1;
+    border-radius: 28px;
+    overflow: hidden;
+    }
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.floating-card {
+    position: absolute;
+    padding: 14px 18px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.task-review-card {
+    top: 30px;
+    left: 30px;
+}
+.avatar-row img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: -10px;
+}
+    .avatar-row img:first-child {
+    margin-left: 0;
+}
